@@ -1,0 +1,402 @@
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By LOST TOWN CFW 👑-->
+<!--By Dex 👑-->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LTRP</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      transition: all 0.3s ease;
+    }
+    body {
+      background-color: #1e1e1e;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+  
+    .page-wrapper {
+      animation: slideIn 1s ease forwards;
+      opacity: 0;
+    }
+    @keyframes slideIn {
+      from { transform: translateY(100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+ 
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 12px;
+      height: 12px;
+      background: #ff6c00;
+      
+      border: 2px solid #333;
+      border-radius: 50%;
+      pointer-events: none;
+      z-inDex: 9999;
+      transform: translate(-50%, -50%);
+    }
+
+ 
+    header {
+      width: 100%;
+      height: 80px;
+      background-color: #111;
+      display: flex;
+      align-items: center;
+      padding: 0 40px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-inDex: 1000;
+    }
+    .left-header .logo img {
+      width: 60px;
+      height: auto;
+    }
+    .home-btn a {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .home-btn a:hover {
+      color: #fff;
+    }
+
+    
+    .hero-section {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: url('background.jpg') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-inDex: 1;
+    }
+
+    .main-btn {
+      text-decoration: none;
+      color: #ffffff;
+      background: #ff6c00;
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 1rem;
+      position: relative;
+      right: 71px;
+      bottom: 43px;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .main-btn:hover {
+      background: #ff6200;
+      transform: translateY(-55px);
+    }
+    
+    .login-form-container {
+      position: relative;
+      z-inDex: 2;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 40px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 450px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+    .login-form-container h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ff6c00;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+    .login-form-container form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .login-form-container form input {
+      padding: 12px;
+      font-size: 1rem;
+      border: 2px solid #333;
+      border-radius: 5px;
+      outline: none;
+      background-color: #222;
+      color: #fff;
+      transition: border-color 0.3s;
+    }
+    .login-form-container form input:focus {
+      border-color: #ff6c00;
+    }
+    .login-form-container form button {
+      padding: 12px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 5px;
+      background: #ff6c00;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+    .login-form-container form button:hover {
+      background: #e65a00;
+      transform: translateY(-3px);
+    }
+    .login-form-container p {
+      margin-top: 15px;
+      font-size: 0.9rem;
+    }
+    .login-form-container p a {
+      color: #ff6c00;
+      text-decoration: none;
+    }
+    .login-form-container p a:hover {
+      color: #fff;
+    }
+
+  
+    .discord-login-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      background: #7289DA;
+      border: none;
+      padding: 15px 25px;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+      margin-top: 30px;
+    }
+    .discord-login-btn:hover {
+      background: #5b6eae;
+      transform: translateY(-3px);
+    }
+    .discord-login-btn img {
+      width: 26px;
+      height: 26px;
+    }
+
+
+    #loadingScreen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #020225;
+      z-inDex: 10000;
+      display: none;
+      transition: all 0.5s ease;
+    }
+
+ 
+    @media (max-width: 576px) {
+      header {
+        padding: 0 20px;
+      }
+      .login-form-container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="custom-cursor"></div>
+
+ 
+  <div id="loadingScreen"></div>
+
+  <div class="page-wrapper">
+ 
+    <header id="mainHeader">
+      <div class="left-header">
+        <div class="logo">
+          <a href="LOST TOWM CFW.html">
+            <img src="https://cdn.discordapp.com/attachments/1337468769538281482/1347991057190748310/c9889a208ea21dc0a8fdbb7787718366.webp?ex=67cdd600&is=67cc8480&hm=5c50aed4683b7cde7d040d2a846648203a342d7747d58d09ec2cd101ee54fa95&" alt="LTRP Logo">
+          </a>
+        </div>
+        <div class="home-btn">
+          <a href="inDex.html" class="main-btn" id="homeLink">الرئيسية</a>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="hero-section">
+      <div class="login-form-container">
+        <h1>تسجيل الدخول</h1>
+        <form action="login-process.html" method="POST">
+          <input type="text" name="username" placeholder="اسم المستخدم" required>
+          <input type="password" name="password" placeholder="كلمة المرور" required>
+          <button type="submit">دخول</button>
+        </form>
+        <p>ليس لديك حساب؟ <a href="Login.html">تسجيل حساب جديد</a></p>
+        
+     
+        <button class="discord-login-btn" id="discordLoginBtn">
+          <img src="data:image/jpeg;base64,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" alt="Discord">
+          <span>تسجيل الدخول عبر ديسكورد</span>
+        </button>
+      </div>
+    </section>
+  </div>
+
+
+  <script>
+    const cursor = document.querySelector('.custom-cursor');
+    let mouseX = 0, mouseY = 0, posX = 0, posY = 0;
+    document.addEventListener('mousemove', e => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+    });
+    function animateCursor() {
+      posX += (mouseX - posX) * 0.1;
+      posY += (mouseY - posY) * 0.1;
+      cursor.style.transform = `translate3d(${posX}px, ${posY}px, 0)`;
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+
+  
+    let lastScroll = 0;
+    const header = document.getElementById('mainHeader');
+    window.addEventListener('scroll', () => {
+      let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      if (currentScroll > lastScroll && currentScroll > 100) {
+        header.classList.add('hidden');
+      } else {
+        header.classList.remove('hidden');
+      }
+      lastScroll = currentScroll;
+    });
+
+
+    function showLoadingScreen(targetUrl) {
+      const loadingScreen = document.getElementById('loadingScreen');
+      const directions = ['top', 'right', 'bottom', 'left'];
+      const randomDirection = directions[Math.floor(Math.random() * directions.length)];
+      
+      loadingScreen.style.display = 'block';
+      loadingScreen.style.transition = 'all 0.5s ease';
+      
+      switch(randomDirection) {
+        case 'top':
+          loadingScreen.style.top = '-100%';
+          setTimeout(() => loadingScreen.style.top = '0', 0);
+          break;
+        case 'right':
+          loadingScreen.style.right = '-100%';
+          setTimeout(() => loadingScreen.style.right = '0', 0);
+          break;
+        case 'bottom':
+          loadingScreen.style.bottom = '-100%';
+          setTimeout(() => loadingScreen.style.bottom = '0', 0);
+          break;
+        case 'left':
+          loadingScreen.style.left = '-100%';
+          setTimeout(() => loadingScreen.style.left = '0', 0);
+          break;
+      }
+
+      setTimeout(() => {
+        window.location.href = targetUrl;
+      }, 1500);
+    }
+
+    const homeLink = document.getElementById('homeLink');
+    homeLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetUrl = homeLink.getAttribute('href');
+      showLoadingScreen(targetUrl);
+    });
+
+ 
+    document.getElementById('discordLoginBtn').addEventListener('click', function() {
+      const discordOAuthUrl = "https://discord.com/api/oauth2/authorize?client_id=1347269914091585556&redirect_uri=1bx_foENmhQtV9of65WonVYeHaW5Xlt6&response_type=code&scope=identify";
+      window.location.href = discordOAuthUrl;
+    });
+  </script>
+</body>
+</html>
